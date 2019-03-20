@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Class Marksheet</h3>
+    <div class="container">
+        <div class="item-score form-group">
+            <label for="name">Họ tên:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="FullName">
+        </div>
+        <div class="item-score form-group">
+            <label for="math">Điểm Toán:</label>
+            <input type="number" class="form-control" id="math" aria-describedby="Math Score">
+        </div>
+        <div class="item-score form-group">
+            <label for="physical">Điểm Lý:</label>
+            <input type="number" class="form-control" id="physical" aria-describedby="Physical Score">
+        </div>
+        <div class="item-score form-group">
+            <label for="chemistry">Điểm Hóa:</label>
+            <input type="number" class="form-control" id="chemistry" aria-describedby="Chemistry Score">
+        </div>
+        <button class="btn btn-primary addStudent">Nhập</button>
+    </div>
+    <div class="show-list-student">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ tên</th>
+                    <th>Toán</th>
+                    <th>Lý</th>
+                    <th>Hóa</th>
+                    <th>Trung bình</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="item-score item-button">
+        <span><button class="btn btn-success marksheet">Tính điểm trung bình</button></span>
+        <span><button class="btn btn-warning good">Xác định học sinh giỏi</button></span>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</html>

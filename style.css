@@ -1,0 +1,38 @@
+.row{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    text-align: center;
+    margin: 2em 0;
+}
+.form-text{
+    color: red!important;
+    font-weight: 700;
+}
+.item-score{
+    padding-bottom: 1em;
+    width: 300px;
+    margin: 0 auto;
+}
+.item-score input{
+    width: 100%;
+}
+.addStudent{
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+.show-list-student{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+.item-button{
+    width: 361px;
+}
+.show-list-student table tr th{
+    text-align: center;
+}
